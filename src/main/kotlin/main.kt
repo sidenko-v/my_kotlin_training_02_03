@@ -42,7 +42,7 @@ fun main() {
         currentDiscountInRub = highDiscountInRub
     }
 
-    if (isMusicLover == true) {
+    if (isMusicLover) {
         additionalDiscountForMusicLoversInRub =
             (currentPurchaseAmountInRub - currentDiscountInRub) * additionalDiscountForMusicLoversInPercent / 100
     }
